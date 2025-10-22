@@ -1,0 +1,20 @@
+# Exercicio 1.3 
+Neste projeto escolhi as 3 imagens: Postgres, node e python; 
+
+POSTGRES
+![postgres](<Captura de tela 2025-10-21 210911.png>)
+NODE
+![node](<Captura de tela 2025-10-21 210935.png>)
+
+
+Tamanho: Postgres - 426mb; node 127mb; python 124 
+Camadas: Postgres - 22; Node - 12; Python - 22
+Base: Postgres - Debian; Node - Linux; Python - Debian
+
+Por que algumas imagens são maiores do que outras: Percebi as imagens que tem mais camadas e recursos acabam sendo as maiores;
+
+A tag Alpine significa que a imagem foi construida a partir da base alpine do so linux;
+
+O versionamento ajuda no controle e organização: ele gera previsibilidade e torna facil o uso de codigos (versões) sejam ela anteriores ou atuais. 
+Podemos saber o que mudou de um codigo para o outro e entender se as mudanças são boas, assim dar continuidade ou simplesmente usar a versão anterior caso seja mais adequada; 
+para recupoeração é algo extratemente importante em minha opnião; 
